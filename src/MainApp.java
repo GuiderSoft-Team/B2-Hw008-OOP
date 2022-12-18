@@ -1,6 +1,6 @@
 public class MainApp {
     public static void main(String[] args) {
-        //readme.me dosyasını okuyunuz.
+
 
         Point p1=new Point(7,4);
         Point p2=new Point();
@@ -12,7 +12,7 @@ public class MainApp {
         System.out.println("Mesafe p1-p2: "+mesafe12);
         System.out.println();
         double mesafe3d = p3.calculateDistance(5, 4);
-        System.out.println("Mesafe p3-diğer 5,4:"+mesafe3d);
+        System.out.println("Mesafe p3-diğer :"+mesafe3d);
 
     }
 }
