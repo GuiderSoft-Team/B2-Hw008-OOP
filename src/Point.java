@@ -27,13 +27,6 @@ public class Point {
     }
 
 
-/*    public double calculateDistance(Point point){
-        int xFark=this.x-point.x;
-        int yFark=this.y-point.y;
-
-        return Math.sqrt(Math.pow(xFark,2)+Math.pow(yFark,2));
-    }*/
-
     public double calculateDistance(Point point) {
         return calculateDistance(point.x, point.y);
     }
